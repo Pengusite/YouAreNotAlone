@@ -58,10 +58,8 @@
             <!--Using DIV for better CSS-->
             <div class="nav-bar">
                 <a href="home.php">Home</a>
-                <a href="best.php">Best Seller</a>
+                <a href="best.php">Best Sellers</a>
                 <a href="browse.php">Browse Cards</a>
                 <a href="about.php">About Us</a>
                 <a href="checkout.php" class="checkout-btn">🛒 Checkout</a>
             </div>
-        
-        
