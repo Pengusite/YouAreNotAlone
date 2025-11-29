@@ -1,3 +1,5 @@
+/*Catanghal, Justine Chollo C | CYB 201*/
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('https://i.redd.it/gg3ket5y5qr31.jpg');
@@ -26,7 +28,7 @@ h1 {
     font-size: 3em;
     margin-bottom: 10px;
     font-weight: 900;
-    margin-top: auto;
+    margin-top: 0; 
 }
 
 h2 {
@@ -36,6 +38,7 @@ h2 {
     padding-bottom: 10px;
 }
 
+/*CARD STYLES*/
 .poke-card {
     border: 2px solid #ffcb05;
     background: white;
@@ -55,6 +58,7 @@ h2 {
     text-align: center;
 }
 
+/*TABLE & LIST STYLES*/
 .price-list {
     background-color: #f9f9f9;
     width: 100%;
@@ -69,7 +73,8 @@ h2 {
     border-bottom: 1px dashed #ccc;
 }
 
-    .status-box {
+/*STATUS BOX STYLES*/
+.status-box {
     margin-left: 20px;
     flex-grow: 1;
 }
@@ -87,15 +92,51 @@ h2 {
 .orange { color: #d35400; border: 1px solid #d35400; }
 .red { color: red; border: 1px solid red; }
 
-.footer {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 3px solid #3B4CCA;
+/*HOME PAGE SPECIFIC STYLES*/
+.hero-section {
+    background: linear-gradient(to right, #3B4CCA, #2a3a99);
+    color: white;
+    padding: 40px;
     text-align: center;
-    color: #555;
-    font-size: 0.9em;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
+.promo-box {
+    border: 3px dashed #CC0000;
+    background-color: #fff5f5;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip-bar {
+    background-color: #ffcb05;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.badge-list {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* --- FOOTER STYLES --- */
 .footer {
     margin-top: 40px;
     padding-top: 20px;
